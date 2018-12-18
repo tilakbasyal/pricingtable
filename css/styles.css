@@ -1,0 +1,98 @@
+@font-face {
+	font-family: Roboto;
+	src: url("fonts/Raleway-ExtraLight.ttf")
+}
+
+#header {
+	background-image: radial-gradient(#283546, #2F3B53);
+}
+
+#header .text {
+	padding: 50px 0px;
+	text-align: center;
+	color: white;
+}
+#header .text h2 {
+	margin: 0px;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+#header .text p {
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+
+#header .text p {
+	margin: 0px;
+}
+
+#simple h1 {
+	font-family: Roboto, sans-serif;
+	letter-spacing: 11px;
+	font-weight: 500;
+	margin: 0px;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+/* @media screen and (min-width:320px) {
+	#footer .boxes .card {
+		display: flex;
+		flex-direction: column;
+	}
+} */
+
+#footer .card .first {
+	margin: 20px 0px;
+}
+#footer .card .second h4 {
+	margin: 0px;
+	margin-bottom: 15px;
+}
+#footer .card .third p{
+	margin: 0px;
+	margin-bottom: 8px;
+	padding: 0px;
+	/* padding-bottom: 20px;	 */
+}
+#footer .card .fourth h1, p{
+	margin: 0px;
+	padding: 0px;	
+}
+#footer .card .fourth {
+	line-height: 10px;
+}
+
+
+#footer .card .fifth .button {
+	width: 120px;
+	margin-top: 23px;
+	margin-bottom: 20px;
+}
+
+#footer .boxes {
+	margin: 0% 10%;
+	display: flex;
+	margin-bottom: 15px;
+	/* justify-content: space-around; */
+}
+
+#footer .card {
+	margin: 0px 10px;
+	text-align: center;
+	background-color: #D7DADF;
+	padding: 0px 30px;
+}
+
+.card .fa {
+	font-size: 60px;
+	/* padding: 10px; */
+}
+
+.card .button {
+	background-color: #D7DADF;
+	padding: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
