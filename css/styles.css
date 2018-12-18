@@ -54,7 +54,6 @@
 	margin: 0px;
 	margin-bottom: 8px;
 	padding: 0px;
-	/* padding-bottom: 20px;	 */
 }
 #footer .card .fourth h1, p{
 	margin: 0px;
@@ -63,23 +62,15 @@
 #footer .card .fourth {
 	line-height: 10px;
 }
-
-
-#footer .card .fifth .button {
-	width: 120px;
-	margin-top: 23px;
-	margin-bottom: 20px;
-}
-
 #footer .boxes {
 	margin: 0% 10%;
 	display: flex;
-	margin-bottom: 15px;
-	/* justify-content: space-around; */
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 #footer .card {
-	margin: 0px 10px;
+	margin-bottom: 15px;
 	text-align: center;
 	background-color: #D7DADF;
 	padding: 0px 30px;
@@ -87,10 +78,11 @@
 
 .card .fa {
 	font-size: 60px;
-	/* padding: 10px; */
 }
 
 .card .button {
+	width: 120px;
+	margin: 23px 0px 20px 0px;
 	background-color: #D7DADF;
 	padding: 10px;
 	border: 1px solid black;
